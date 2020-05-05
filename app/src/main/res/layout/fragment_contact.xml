@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".ui.contact.ContactFragment">
+
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:text="ติดต่อเรา"
+        android:textAlignment="center"
+        android:textColor="#FCCD00"
+        android:textSize="40dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_below="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="องค์การบริหารส่วนตำบลเข็กน้อย (อบต.เข็กน้อย)"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_below="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+
+        android:text="หมู่ที่ 4 ตำบลเข้กน้อย อำเภอเขาค้อ จังหวัดเพชรบูรณ์"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_below="@+id/title3"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2">
+
+        <TextView
+            android:id="@+id/simpleTextView"
+            style="@style/ContactText.left"
+            android:text="โทรศัพท์ :" />
+
+        <TextView
+            android:id="@+id/textPhone"
+            style="@style/ContactText"
+            android:text="056-925575-6" />
+
+
+        <TextView
+            style="@style/ContactText.left"
+            android:text="อีเมล์ :" />
+
+        <TextView
+            android:id="@+id/textEmail"
+            style="@style/ContactText"
+            android:text="chaichate@gmail.com" />
+
+
+        <TextView
+            style="@style/ContactText.left"
+            android:text="Line ID :" />
+
+        <TextView
+            android:id="@+id/textLineID"
+            style="@style/ContactText"
+            android:text="Chaii_chate" />
+
+
+        <TextView
+            style="@style/ContactText.left"
+            android:text="Facebook :" />
+
+        <TextView
+            android:id="@+id/textFacebook"
+            style="@style/ContactText"
+            android:text="AtKheknoi" />
+
+
+    </GridLayout>
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/TitleCount"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="95dp"-->
+<!--        android:text="9999999"-->
+<!--android:textAlignment="center"-->
+<!--        android:textColor="#FF0000"-->
+<!--        android:layout_marginTop="80dp"-->
+
+<!--        android:layout_below="@+id/grid"-->
+<!--        android:textSize="50dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_below="@+id/grid"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="5dip"-->
+<!--        android:text="จำนวนผู้เข้าชม"-->
+<!--        android:textAlignment="textEnd"-->
+<!--        android:textColor="#000"-->
+<!--        android:textSize="14dp" />-->
+
+</RelativeLayout>

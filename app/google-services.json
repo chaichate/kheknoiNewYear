@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "749072839000",
+    "firebase_url": "https://kheknoi-e504b.firebaseio.com",
+    "project_id": "kheknoi-e504b",
+    "storage_bucket": "kheknoi-e504b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749072839000:android:c8c8d959fa48114a27b52d",
+        "android_client_info": {
+          "package_name": "com.chaiidev.kheknoi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749072839000-368aup6bqk0mc09bumua49iacuh1m614.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEH3-qbP2BO2qDcExoaezWxPz9a4d4viQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749072839000-368aup6bqk0mc09bumua49iacuh1m614.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

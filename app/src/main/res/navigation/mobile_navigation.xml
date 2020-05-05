@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.chaiidev.kheknoi.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_shop_layout"
+        android:name="com.chaiidev.kheknoi.ui.shop.ShopLayoutFragment"
+        android:label="@string/title_shop"
+        tools:layout="@layout/fragment_shop_layout" />
+
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.chaiidev.kheknoi.ui.gallery.GalleryFragment"
+        android:label="@string/gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+
+
+
+    <fragment
+        android:id="@+id/navigation_compliment"
+        android:name="com.chaiidev.kheknoi.ui.compliment.ComplimentFragment"
+        android:label="@string/compliment"
+        tools:layout="@layout/fragment_compliment" />
+
+
+    <fragment
+        android:id="@+id/navigation_contact"
+        android:name="com.chaiidev.kheknoi.ui.contact.ContactFragment"
+        android:label="@string/contact"
+        tools:layout="@layout/fragment_contact" />
+
+</navigation>

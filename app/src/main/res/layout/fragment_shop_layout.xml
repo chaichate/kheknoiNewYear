@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ShopFragmentLayout"
+    android:background="@drawable/bg"
+    tools:context=".ui.shop.ShopLayoutFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ประวัติและประเพณี"
+        android:textAlignment="center"
+        android:textColor="#FCCD00"
+        android:textSize="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:text="ประวัติม้งเข็กน้อย"
+        />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:text="ประเพณีปีใหม่"
+        />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:text="พิธีเข้ากรรม"
+        />
+
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:text="ประเพณีแต่งงาน"
+        />
+
+
+
+
+
+
+</LinearLayout>
